@@ -5,8 +5,8 @@
 	"description": "Create dB Meters from Variables",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/DodgeAudio/companion-module-generic-meter.git",
+	"bugs": "https://github.com/DodgeAudio/companion-module-generic-meter/issues",
 	"maintainers": [
 		{
 			"name": "Drew Dodge",
