@@ -9,6 +9,8 @@ import { UpdatePresets } from './presets.js'
 export class ModuleInstance extends InstanceBase<ModuleConfig> {
 	config!: ModuleConfig // Setup in init()
 
+	public meterState = new Map<string, { value: number; ts: number; peak: number; peakTs: number }>()
+
 	constructor(internal: unknown) {
 		super(internal)
 	}

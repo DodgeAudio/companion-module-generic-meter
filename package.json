@@ -1,5 +1,5 @@
 {
-	"name": "your-module-name",
+	"name": "companion-module-generic-meter",
 	"version": "0.1.0",
 	"main": "dist/main.js",
 	"type": "module",
@@ -23,11 +23,13 @@
 		"yarn": "^4"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.14.1"
+		"@companion-module/base": "~1.14.1",
+		"pngjs": "^7.0.0"
 	},
 	"devDependencies": {
 		"@companion-module/tools": "^2.5.0",
 		"@types/node": "^22.19.3",
+		"@types/pngjs": "^6.0.5",
 		"eslint": "^9.39.2",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.2.7",
