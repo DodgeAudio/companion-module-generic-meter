@@ -1,5 +1,5 @@
 {
-	"id": "dB-Meter",
+	"id": "generic-meter",
 	"name": "dB-Meter",
 	"shortname": "dBMeter",
 	"description": "Create dB Meters from Variables",
